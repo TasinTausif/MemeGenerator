@@ -1,15 +1,17 @@
 import './App.css'
 import FetchingData from './components/FetchingData'
+import WindowBar from './components/WindowBar'
 import Header from "./components/Header"
 import Main from "./components/Main"
 
 function App() {
   return (
     <>
-      <FetchingData />
+      {/* <FetchingData /> */}
+      {/* <WindowBar/> */}
 
-      {/* <Header />
-      <Main /> */}
+      <Header />
+      <Main />
     </>
   )
 }
