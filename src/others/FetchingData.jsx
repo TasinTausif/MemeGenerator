@@ -2,7 +2,7 @@ import {useState, useEffect} from "react"
 
 export default function() {
     const [starWarsData, setStarWarsData] = useState(null)
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(1)
     
     // UseEffect will run after the DOM rendering is done. If useEffect is used with useState and without using the second argument(the dependencies array), the rendering will go on for infinite times.
     // If useEffect returns something, it will return a cleanup function that will run before the component is removed from the DOM(When we hide a item from the screen using && it actually removes it from the DOM).
