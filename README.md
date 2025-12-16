@@ -1,6 +1,21 @@
 # 🎬 MemeGenerator
 
 **MemeGenerator** is a fun, interactive web app built with **React + Vite** that lets you easily create custom memes by choosing a template and adding your own text.
+**Used API "https://swapi.dev/api/people/" for meme images 
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Generate meme here:**  
+👉 https://meme-generator-eight-tan.vercel.app/
+
+---
+
+## 📸 Screenshots
+
+### Generate new meme
+<img src="./screenshots/meme.png" alt="meme" />
 
 ---
 
